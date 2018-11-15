@@ -4,7 +4,7 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-navigation
 import Search from '../Components/Search'
 import FilmDetail from '../Components/FilmDetail';
 import Favorites from '../Components/Favorites';
-import Test from '../Components/Test';
+import NewFilm from '../Components/NewFilm';
 
 const SearchStackNavigator = createStackNavigator({
   SearchView: {
@@ -36,6 +36,21 @@ const FavoriteStackNavigator = createStackNavigator({
   }
 })
 
+const NewStackNavigator = createStackNavigator({
+  NewFilmsView: {
+    screen: NewFilm,
+    navigationOptions: {
+      title: 'Nouveautés'
+    }
+  },
+  FilmDetailView: {
+    screen: FilmDetail,
+    navigationOptions: {
+      title: 'Details'
+    }
+  }
+})
+
 const MoviesTabNavigator = createBottomTabNavigator({
   Search: {
     screen: SearchStackNavigator,
@@ -53,6 +68,16 @@ const MoviesTabNavigator = createBottomTabNavigator({
       tabBarIcon: () => {
         return <Image 
         source={require('../Images/ic_favorite.png')}
+        style={styles.icon}/>
+      }
+    }
+  },
+  NewFilm: {
+    screen: NewStackNavigator,
+    navigationOptions: {
+      tabBarIcon: () => {
+        return <Image 
+        source={require('../Images/ic_fiber_new.png')}
         style={styles.icon}/>
       }
     }
