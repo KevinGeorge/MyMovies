@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 15 10:09:27 CET 2018
+#Thu Nov 15 13:43:58 CET 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libimagepipeline.so
 25.base=D\:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0

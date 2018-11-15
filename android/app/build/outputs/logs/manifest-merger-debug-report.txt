@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd6f15e18f55dfaa5a174f6d425ce57a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\507357f527276a09ce7580bc770452d1\AndroidManifest.xml:17:1-22:12
@@ -24,20 +25,20 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\kevin\.gradle\cach
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\5aaeb3c6c003efbb24cc10e0998c68ad\AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1892160eeba38a4217f1358a00e410a4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\37d5e6476a38e67a739b9b1ebb03d597\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
 	package
 		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:2:5-27
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -51,8 +52,18 @@ MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\cach
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.CAMERA
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:7:5-24:19
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:9:5-26:19
+MERGED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\4b6ac70d15b0d186e0cece3061448867\AndroidManifest.xml:11:5-20
@@ -60,43 +71,45 @@ MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\kevin\.gradle\caches
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d9d47a0eafe73407f116273d6e9849ce\AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\d9d47a0eafe73407f116273d6e9849ce\AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:11:7-39
 	android:icon
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:12:7-41
 	android:allowBackup
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:13:7-34
 	android:theme
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:14:7-38
 	android:name
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:10:7-38
 activity#com.mymovies.MainActivity
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:13:7-22:18
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:15:7-24:18
 	android:label
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:17:9-41
 	android:windowSoftInputMode
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:19:9-51
 	android:configChanges
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:18:9-79
 	android:name
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:16:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:18:9-21:25
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:22:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:23:7-84
+ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:25:17-81
 uses-sdk
 INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.57.5.aar\6275f105bbf928b5766d45a37c958420\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd6f15e18f55dfaa5a174f6d425ce57a\AndroidManifest.xml:20:5-44
@@ -145,9 +158,23 @@ INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 		ADDED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] D:\Work\KLEAF\www\Movies\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:17-67
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\Work\KLEAF\www\Movies\android\app\src\main\AndroidManifest.xml:1:1-28:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

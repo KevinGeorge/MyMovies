@@ -508,6 +508,10 @@
         "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b7fcd80c871bc540edc0b92e30f4d149\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "D:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "D:\\Work\\KLEAF\\www\\Movies\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\layout\\list_item.xml"
+    },
+    {
         "merged": "D:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b7fcd80c871bc540edc0b92e30f4d149\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -790,6 +794,10 @@
     {
         "merged": "D:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b7fcd80c871bc540edc0b92e30f4d149\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\Work\\KLEAF\\www\\Movies\\node_modules\\react-native-image-picker\\android\\build\\intermediates\\packaged_res\\debug\\xml\\provider_paths.xml"
     },
     {
         "merged": "D:\\Work\\KLEAF\\www\\Movies\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",

@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 // Add state globale to props
 const mapStateToProps = (state) => {
   return {
-    favoritesFilm: state.favoritesFilm
+    favoritesFilm: state.toggleFavorite.favoritesFilm
   }
 }
 export default connect(mapStateToProps)(FilmList)
